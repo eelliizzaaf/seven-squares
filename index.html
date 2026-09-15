@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#06151b" />
+  <title>Seven Squares — Every visit documented. Every voice measured.</title>
+  <meta name="description" content="Visit note ready for sign-off when the consultation ends — plus a speech-based cognitive index for every patient over 50. Audio never leaves the clinic." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="is-loading">
+  <div class="boot" aria-hidden="true">
+    <div class="boot-mark">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+    <p>Seven Squares</p>
+  </div>
+
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header on-hero">
+    <a class="logo" href="#top" aria-label="Seven Squares home">
+      <span class="logo-mark" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </span>
+      <span class="logo-text">Seven Squares</span>
+    </a>
+    <nav class="nav" id="site-nav">
+      <a href="#promise">Promise</a>
+      <a href="#science">Science</a>
+      <a href="#how">How it works</a>
+      <a href="#proof">Evidence</a>
+      <a class="nav-cta" href="#pilot">Request a pilot</a>
+    </nav>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <!-- Block 1 -->
+    <section class="hero">
+      <canvas class="hero-canvas" id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-veil" aria-hidden="true"></div>
+      <div class="hero-orbs" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="hero-stage">
+        <div class="hero-copy">
+          <p class="eyebrow hero-in" style="--d:0">
+            <span class="pulse-live"></span>
+            Clinical documentation · Cognitive wellness
+          </p>
+          <h1 class="brand hero-in" style="--d:1" data-split="Seven Squares">Seven Squares</h1>
+          <p class="slogan hero-in" style="--d:2">
+            Every visit documented.<br />
+            <em>Every voice measured.</em>
+          </p>
+          <div class="hero-actions hero-in" style="--d:3">
+            <a class="btn btn-primary magnetic" href="#pilot"><span>Request a pilot</span></a>
+            <a class="btn btn-ghost magnetic" href="#how"><span>See the clinical flow</span></a>
+          </div>
+        </div>
+
+        <aside class="hero-hud hero-in" style="--d:3" aria-hidden="true">
+          <div class="hud-readout">
+            <div class="hud-top">
+              <span>Cognitive index</span>
+              <span class="hud-badge">Wellness · not diagnosis</span>
+            </div>
+            <div class="hud-main">
+              <div class="hud-ring">
+                <svg viewBox="0 0 120 120">
+                  <circle class="ring-bg" cx="60" cy="60" r="52" />
+                  <circle class="ring-fg" cx="60" cy="60" r="52" pathLength="100" />
+                </svg>
+                <div class="hud-score">
+                  <strong class="index-value" data-count="78">0</strong>
+                  <small>/ 100</small>
+                </div>
+              </div>
+              <ul class="hud-markers" id="hud-markers">
+                <li class="is-active"><span></span> Semantic density</li>
+                <li><span></span> Pause distribution</li>
+                <li><span></span> Speech rate</li>
+                <li><span></span> Voice-break rhythm</li>
+              </ul>
+            </div>
+            <div class="hud-foot">
+              <span class="live-dot"></span>
+              Audio never leaves the clinic
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="marquee hero-in" style="--d:4" aria-hidden="true">
+        <div class="marquee-track">
+          <span>ADReSS validated</span>
+          <span>DementiaBank trained</span>
+          <span>0.6 GB peak RAM</span>
+          <span>&lt; 90 s per 15-min visit</span>
+          <span>Audio stays on-site</span>
+          <span>ADReSS validated</span>
+          <span>DementiaBank trained</span>
+          <span>0.6 GB peak RAM</span>
+          <span>&lt; 90 s per 15-min visit</span>
+          <span>Audio stays on-site</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Block 2 -->
+    <section class="section promise" id="promise">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="section-kicker reveal" data-reveal>Value proposition</p>
+          <h2 class="reveal" data-reveal data-anim="rise">Documentation ends with the visit. Screening adds zero minutes.</h2>
+        </div>
+        <p class="section-lead reveal" data-reveal>
+          Doctors in the private clinics we interviewed spend <strong>11 minutes of a 15-minute visit</strong> writing the note
+          (average across six clinic interviews). Seven Squares listens once and returns two clinical outputs:
+          a visit note with personal patient recommendations, ready for the doctor's sign-off when the consultation ends —
+          and a speech-based cognitive index for every patient over 50, computed from as little as four minutes of patient speech.
+        </p>
+        <ul class="promise-grid">
+          <li class="reveal" data-reveal data-stagger="0" data-anim="card">
+            <span class="tile-num">01</span>
+            <h3>Auto documentation</h3>
+            <p>Visit note and patient recommendations are ready for sign-off the moment the consultation ends.</p>
+          </li>
+          <li class="reveal" data-reveal data-stagger="1" data-anim="card">
+            <span class="tile-num">02</span>
+            <h3>Cognitive index for 50+</h3>
+            <p>Computed from the same conversation — no separate MMSE/MoCA appointment (10–15 minutes each).</p>
+          </li>
+          <li class="reveal" data-reveal data-stagger="2" data-anim="card">
+            <span class="tile-num">03</span>
+            <h3>Zero added minutes</h3>
+            <p>The doctor runs the visit as usual. The index needs four minutes of patient speech; a standard visit runs 15–30.</p>
+          </li>
+        </ul>
+        <p class="callout reveal" data-reveal>
+          In our first two recorded test visits, the doctor's writing time fell from 11 minutes to about 2 (−80%).
+        </p>
+      </div>
+    </section>
+
+    <!-- Block 3 -->
+    <section class="section science" id="science">
+      <div class="science-bg" aria-hidden="true"></div>
+      <div class="section-inner">
+        <div class="section-head light">
+          <p class="section-kicker reveal" data-reveal>Business thesis · secret sauce</p>
+          <h2 class="reveal" data-reveal data-anim="rise">One recording. Two jobs medicine still treats separately.</h2>
+        </div>
+        <div class="science-layout">
+          <div class="science-copy">
+            <p class="reveal" data-reveal data-stagger="0">
+              Cognitive screening today is a separate 10–15-minute test (MMSE/MoCA), done rarely and only after a complaint appears.
+              We extract both the visit note and a cognitive index from the same consultation audio — and the audio never leaves the clinic.
+            </p>
+            <p class="reveal" data-reveal data-stagger="1">
+              <strong>On-site processing.</strong> Transcription and acoustic feature extraction run on the clinic's own computer.
+              Measured on a Windows PC with 8 GB RAM and no GPU: a 15-minute visit is processed in 70–85 seconds
+              (real-time factor ≈ 0.1), with peak memory use of 0.6 GB. No server, no audio upload.
+            </p>
+            <p class="reveal" data-reveal data-stagger="2">
+              <strong>What we measure:</strong> semantic and lexical content, syntactic complexity, bimodal log-normal pause distribution,
+              utterance length, speech rate, and variability of voice breaks that disturb speech rhythm —
+              markers validated in longitudinal Alzheimer's studies.
+            </p>
+            <p class="reveal" data-reveal data-stagger="3">
+              <strong>Evidence.</strong> Published models built on these combined linguistic and acoustic features reach
+              <strong>85.45%</strong> and <strong>89.6%</strong> accuracy in AD classification on the ADReSS benchmark.
+            </p>
+            <p class="reveal" data-reveal data-stagger="4">
+              <strong>The index.</strong> A 0–100 score referenced to MMSE/MoCA scores from the training corpora
+              (DementiaBank, ADReSS) and weighted by the model's estimated error — a wellness indicator, not a diagnosis.
+            </p>
+          </div>
+          <aside class="science-panel">
+            <div class="metric reveal" data-reveal data-stagger="0" data-anim="pop">
+              <span class="metric-num" data-count="85.45" data-suffix="%">0</span>
+              <span class="metric-label">AD classification accuracy · ADReSS</span>
+            </div>
+            <div class="metric reveal" data-reveal data-stagger="1" data-anim="pop">
+              <span class="metric-num" data-count="89.6" data-suffix="%">0</span>
+              <span class="metric-label">Peak model accuracy · ADReSS</span>
+            </div>
+            <div class="metric reveal" data-reveal data-stagger="2" data-anim="pop">
+              <span class="metric-num" data-count="0.6" data-suffix=" GB">0</span>
+              <span class="metric-label">Peak RAM · no GPU</span>
+            </div>
+            <div class="metric reveal" data-reveal data-stagger="3" data-anim="pop">
+              <span class="metric-num">&lt; 90 s</span>
+              <span class="metric-label">To process a 15-minute visit</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Block 4 -->
+    <section class="section how" id="how">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="section-kicker reveal" data-reveal>How the solution works</p>
+          <h2 class="reveal" data-reveal data-anim="rise">From microphone to chart — audio stays on-site.</h2>
+        </div>
+        <p class="section-lead reveal" data-reveal>
+          A microphone in the consulting room records the visit. On the clinic's own computer the recording is split into speaker turns,
+          transcribed, and analysed for acoustic and timing features — pauses, speech rate, voice breaks.
+          The transcript and the computed features, never the audio, go to the cloud, where an LLM drafts the visit note
+          and a classifier trained on DementiaBank and ADReSS (healthy / MCI / dementia) returns a cognitive index from 0 to 100.
+        </p>
+
+        <div class="pipeline">
+          <ol class="flow">
+            <li class="reveal" data-reveal data-stagger="0" data-anim="card">
+              <div class="flow-top">
+                <span class="flow-step">01</span>
+                <span class="flow-icon" data-icon="mic" aria-hidden="true"></span>
+              </div>
+              <h3>Record</h3>
+              <p>Room microphone captures the consultation; the doctor talks to the patient, not to the keyboard.</p>
+              <div class="flow-viz" aria-hidden="true">
+                <div class="viz-panel">
+                  <span class="viz-label">Live mic</span>
+                  <span class="viz-label soft">Laptop closed</span>
+                </div>
+              </div>
+            </li>
+            <li class="reveal" data-reveal data-stagger="1" data-anim="card">
+              <div class="flow-top">
+                <span class="flow-step">02</span>
+                <span class="flow-icon" data-icon="cpu" aria-hidden="true"></span>
+              </div>
+              <h3>Process on-site</h3>
+              <p>VAD separates speaker turns; transcription and feature extraction run on the clinic PC — 8 GB RAM, no GPU. A 15-minute visit takes about 80 seconds.</p>
+              <div class="flow-viz" aria-hidden="true">
+                <div class="viz-panel">
+                  <div class="viz-meter"><i></i></div>
+                  <span class="viz-label">Audio stays here · ~80s</span>
+                </div>
+              </div>
+            </li>
+            <li class="reveal" data-reveal data-stagger="2" data-anim="card">
+              <div class="flow-top">
+                <span class="flow-step">03</span>
+                <span class="flow-icon" data-icon="wave" aria-hidden="true"></span>
+              </div>
+              <h3>Analyse</h3>
+              <p>Transcript and feature set leave the clinic; the cloud returns three outputs — visit note, patient recommendations, cognitive index 0–100.</p>
+              <div class="flow-viz" aria-hidden="true">
+                <div class="viz-panel viz-trio">
+                  <span class="viz-label">Note</span>
+                  <span class="viz-label">Recs</span>
+                  <span class="viz-label accent">Index</span>
+                </div>
+              </div>
+            </li>
+            <li class="reveal" data-reveal data-stagger="3" data-anim="card">
+              <div class="flow-top">
+                <span class="flow-step">04</span>
+                <span class="flow-icon" data-icon="check" aria-hidden="true"></span>
+              </div>
+              <h3>Act</h3>
+              <p>The doctor reviews the note and pastes it into the clinic record. Recommendations reach the patient by SMS and e-mail. An index above 70 (higher = more concern) prompts a neurology review if none was done in the past 6 months; 70 is the starting threshold, tuned during the pilot.</p>
+              <div class="flow-viz" aria-hidden="true">
+                <div class="viz-panel">
+                  <span class="viz-label soft">Doctor signs off</span>
+                  <span class="viz-label accent">Index &gt; 70 → neuro</span>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="storyboard reveal" data-reveal>
+          <p class="storyboard-label">Video storyboard · 30–40 s</p>
+          <ol>
+            <li>Doctor presses Record</li>
+            <li>Conversation</li>
+            <li>Visit ends</li>
+            <li>~80-second progress on the clinic PC</li>
+            <li>Form appears with note, recommendations, index</li>
+            <li>Doctor copies note into the record system</li>
+            <li>Patient’s phone buzzes</li>
+            <li>Closing frame: “Audio never left the clinic.”</li>
+          </ol>
+        </div>
+
+        <div class="success-note reveal" data-reveal>
+          <h3>What clinical success looks like</h3>
+          <p>
+            The visit ends — the note is in the clinic record, the patient has personal recommendations on their phone,
+            and every patient over 50 has a cognitive index on file. The index is a
+            <strong>wellness indicator, not a diagnosis</strong>.
+          </p>
+        </div>
+
+        <div class="compare">
+          <div class="compare-col reveal" data-reveal data-stagger="0" data-anim="card">
+            <p class="compare-label">Traditional path</p>
+            <ul>
+              <li>Notes written during or after the visit (11 of 15 minutes)</li>
+              <li>Separate MMSE/MoCA when a complaint appears</li>
+              <li>+10–15 minutes, rarely repeated</li>
+            </ul>
+          </div>
+          <div class="compare-col accent reveal" data-reveal data-stagger="1" data-anim="card">
+            <p class="compare-label">Seven Squares</p>
+            <ul>
+              <li>Same recording → note + recommendations</li>
+              <li>Cognitive index every visit for 50+</li>
+              <li>Raw audio never leaves the clinic</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Block 6 — Social proof -->
+    <section class="section proof" id="proof">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="section-kicker reveal" data-reveal>Social proof &amp; traction</p>
+          <h2 class="reveal" data-reveal data-anim="rise">Built with clinic operators — not against their day.</h2>
+        </div>
+
+        <div class="proof-grid proof-grid-4">
+          <figure class="reveal" data-reveal data-stagger="0" data-anim="pop">
+            <span class="proof-num" data-count="6">0</span>
+            <figcaption>Customer-discovery interviews with private clinics</figcaption>
+          </figure>
+          <figure class="reveal" data-reveal data-stagger="1" data-anim="pop">
+            <span class="proof-num">11<span class="proof-of">/15</span></span>
+            <figcaption>Minutes of a visit spent writing the note, per those interviews</figcaption>
+          </figure>
+          <figure class="reveal" data-reveal data-stagger="2" data-anim="pop">
+            <span class="proof-num" data-count="2">0</span>
+            <figcaption>Letters of support — AI-mnesis, LifeCare</figcaption>
+          </figure>
+          <figure class="reveal" data-reveal data-stagger="3" data-anim="pop">
+            <span class="proof-num" data-count="80" data-suffix=" s">0</span>
+            <figcaption>To process a 15-minute visit on a clinic PC (8 GB RAM, no GPU)</figcaption>
+          </figure>
+        </div>
+
+        <div class="support-grid">
+          <article class="support-card support-card-aimnesis reveal" data-reveal data-stagger="0" data-anim="card">
+            <div class="support-copy">
+              <div class="support-head">
+                <img class="partner-logo" src="assets/aimnesis-logo.png" alt="AI-mnesis logo" width="72" height="44" />
+                <div>
+                  <p class="support-kicker">Letter of support</p>
+                  <h3>AI-mnesis</h3>
+                </div>
+              </div>
+              <p>
+                Egor Myachev, CEO of AI-mnesis (medical AI), supports the project and is exploring integration
+                of its documentation module into AI-mnesis's own product.
+              </p>
+              <blockquote class="pull-quote">
+                “…keeping the physician in control of the final content.”
+              </blockquote>
+            </div>
+            <a class="letter-frame" href="assets/letter-aimnesis.jpg" target="_blank" rel="noopener">
+              <img src="assets/letter-aimnesis.jpg" alt="Letter of support from AI-mnesis, signed by Myachev E. A." loading="lazy" />
+              <span>Open letter</span>
+            </a>
+          </article>
+
+          <article class="support-card support-card-compact reveal" data-reveal data-stagger="1" data-anim="card">
+            <div class="support-head">
+              <div class="partner-logo partner-logo-text" aria-hidden="true">LC</div>
+              <div>
+                <p class="support-kicker">Letter of support</p>
+                <h3>LifeCare</h3>
+              </div>
+            </div>
+            <p>
+              LifeCare — letter of support for private-clinic deployment of the documentation and cognitive-index workflow.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Block 5 -->
+    <section class="section cta" id="pilot">
+      <div class="section-inner">
+        <div class="cta-shell reveal" data-reveal data-anim="card">
+          <div class="cta-copy">
+            <p class="section-kicker">Call to action</p>
+            <h2>Request a pilot in your clinic.</h2>
+            <p>
+              For private clinics with general practitioners (internal medicine). Tell us your visit volume
+              and whether you already screen patients over 50. We reply with a recorded demo and a pilot outline
+              for your consulting rooms.
+            </p>
+            <ul class="cta-points">
+              <li>Up to 10 consulting rooms</li>
+              <li>Microphones supplied by Seven Squares; the clinic provides a PC with 8 GB RAM in each room</li>
+              <li>Audio stays inside the clinic — no GPU, no server</li>
+            </ul>
+          </div>
+          <form class="pilot-form" id="pilot-form">
+            <label>
+              Clinic name
+              <input type="text" name="clinic" required placeholder="Private clinic name" autocomplete="organization" />
+            </label>
+            <label>
+              Contact e-mail
+              <input type="email" name="email" required placeholder="you@clinic.com" autocomplete="email" />
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" placeholder="+7 …" autocomplete="tel" />
+            </label>
+            <label>
+              Visits per week (approx.)
+              <input type="text" name="volume" placeholder="e.g. 80" inputmode="numeric" />
+            </label>
+            <label class="full">
+              Clinical context
+              <textarea name="notes" rows="3" placeholder="Specialty mix, rooms, whether you screen patients over 50…"></textarea>
+            </label>
+            <button class="btn btn-primary full magnetic" type="submit"><span>Request a pilot</span></button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        </span>
+        <span class="logo-text">Seven Squares</span>
+      </div>
+      <p>Every visit documented. Every voice measured.</p>
+    </div>
+  </footer>
+
+  <div class="mobile-cta" id="mobile-cta">
+    <a class="btn btn-primary" href="#pilot"><span>Request a pilot</span></a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
